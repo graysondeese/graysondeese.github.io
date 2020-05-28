@@ -39,7 +39,7 @@ body {
   backface-visibility: hidden;
   margin-bottom: 60px;
 }
-.heading-primary--main {
+.heading-primary-main {
   display: block;
   font-size: 2em;
   font-weight: 400;
@@ -51,7 +51,7 @@ body {
 @keyframes moveInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-100px);
+    transform: translateX(100px);
   }
 
   80% {
@@ -63,7 +63,6 @@ body {
     transform: translate(0);
   }
 }
-
 @keyframes moveInBottom {
   0% {
     opacity: 0;
@@ -131,17 +130,16 @@ body {
 .center {
   text-align: center;
 }
-/* skills section */
-.section-skills {
-  background-color: #ffffff;
+/* about section */
+.section-about {
+  background-color: #000000;
   text-align: center;
+  overflow: auto;
 }
-
-.skillsHeading {
+.aboutHeading {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  display: inline-block;
   background-image: linear-gradient(
     to right,
     rgba(126, 213, 111, 0.8),
@@ -152,19 +150,18 @@ body {
   letter-spacing: 2px;
   transition: all 0.2s;
 }
-.skillsHeading:hover {
+.aboutHeading:hover {
   transform: skewY(2deg) skewX(15deg) scale(1.1);
   color: white;
 }
-.logoz {
-  height: 150px;
-  outline-offset: 1rem;
+hr {
+  margin-left: 30vw;
+  margin-right: 30vw;
 }
-.logoz:hover {
-  transform: scale(1.05) translateY(-0.5rem);
-  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.7);
-  outline: 1.5rem solid rgba(40, 180, 121, 0.8);
-  outline-width: 0.5rem;
+.aboutMe {
+color: white;
+font-size: 2em;
+margin: 65px;
 }
 /* footer */
 footer {
@@ -180,9 +177,15 @@ footer {
 i {
   color: rgba(40, 180, 121, 0.8);
 }
+i:hover{
+  color: black;
+}
 .githubIcon {
-  padding-right: 33vw;
+  padding-right: 17vw;
   padding-left: 33vw;
+}
+.linkedinIcon {
+  padding-right: 17vw;
 }
 /* making the webpage responsive */
 @media screen and (max-width: 800px){
