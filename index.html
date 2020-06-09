@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Portfolio Landing Page</title>
+    <title>Grayson Deese | Engineer</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,20 +15,23 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
+     <!-- Shortcut icon -->
+     <link
+     rel="shortcut icon"
+     type="img/png"
+     href="./Assets/Logo.png"
+   />
   </head>
   <body>
     <section class="banner" id="sec">
       <header>
-        <a href="#" class="logo">logo</a>
+        <a href="https://graysondeese.github.io/" class="logo">gd</a>
         <div id="toggle" onclick="toggle()"></div>
       </header>
       <div class="content">
         <h2>Hello World, <br />I'm <span>Grayson Deese</span></h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde
-          harum, reiciendis deleniti aperiam totam ducimus illo sequi. Aliquid
-          recusandae laborum incidunt repudiandae maiores sunt quibusdam odio
-          veritatis eum iusto.
+          Front-end engineer leveraging STEM background to improve user experience on all aspects of the web. Currently enrolled in a coding bootcamp through the University of North Carolina at Charlotte where I will receive a certificate in full stack web development. During this bootcamp, I’ve built on my skills in HTML and CSS as well as acquired new skills in JavaScript, React.js, jQuery and responsive web design. Self-motivated, driven and organized individual who works well under pressure and enjoys finding solutions to problems. Known for integrating aspects of UX and UI into a clean, user-friendly page. Recently, I worked in a team of four to build an application, from scratch, that lets users find things to do in the Charlotte area using a Google Maps API. Excited to use skills alongside a driven team to build superior experiences on the web.
         </p>
         <a href="#">Learn More</a>
       </div>
@@ -52,9 +55,10 @@
     </section>
     <div id="navigation">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="https://graysondeese.github.io/"
+          >Home</a></li>
         <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Resume</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </div>
@@ -64,6 +68,10 @@
         var nav = document.getElementById("navigation");
         sec.classList.toggle("active");
         nav.classList.toggle("active");
+      }
+
+      function refreshPage() {
+        window.location.reload();
       }
     </script>
   </body>
