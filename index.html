@@ -6,12 +6,6 @@
     <title>Grayson Deese | Engineer</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
@@ -23,56 +17,33 @@
    />
   </head>
   <body>
-    <section class="banner" id="sec">
-      <header>
-        <a href="https://graysondeese.github.io/" class="logo">gd</a>
-        <div id="toggle" onclick="toggle()"></div>
-      </header>
+    <div class="banner"> 
+      <nav class="navbar">
+      <div class="hamburgerMenu">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+      </div>
+      <ul class="navList">
+          <li class="navItem"> <a href="https://graysondeese.github.io/" class="navLink">Home</a></li>
+          <li class="navItem"> <a href="#" class="navLink">Contact</a></li>
+          <li class="navItem"> <a href="#" class="navLink">Resume</a></li>
+          <li class="navItem"> <a href="https://www.linkedin.com/in/grayson-deese/" target="_blank" class="navLink">Linkedin</a></li>
+          <li class="navItem"> <a href="https://github.com/graysondeese" target="_blank" class="navLink">Github</a></li>
+      </ul>
+  </nav>
+        
       <div class="content">
-        <h2>Hello World, <br />I'm <span>Grayson Deese</span></h2>
+        <h2>Grayson Deese <br /><span>Software Engineer</span></h2>
         <p>
           Front-end engineer leveraging STEM background to improve user experience on all aspects of the web. Currently enrolled in a coding bootcamp through the University of North Carolina at Charlotte where I will receive a certificate in full stack web development. During this bootcamp, I’ve built on my skills in HTML and CSS as well as acquired new skills in JavaScript, React.js, jQuery and responsive web design. Self-motivated, driven and organized individual who works well under pressure and enjoys finding solutions to problems. Known for integrating aspects of UX and UI into a clean, user-friendly page. Recently, I worked in a team of four to build an application, from scratch, that lets users find things to do in the Charlotte area using a Google Maps API. Excited to use skills alongside a driven team to build superior experiences on the web.
         </p>
-        <a href="#">Learn More</a>
+        <a href="#">See Projects</a>
       </div>
-      <ul class="sci fa-3x">
-        <li>
-          <a href="https://www.linkedin.com/in/grayson-deese/" target="_blank"
-            ><i class="fab fa-linkedin"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://github.com/graysondeese" target="_blank"
-            ><i class="fab fa-github-square"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/grayson.deese" target="_blank"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-        </li>
-      </ul>
-    </section>
-    <div id="navigation">
-      <ul>
-        <li><a href="https://graysondeese.github.io/"
-          >Home</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
     </div>
-    <script>
-      function toggle() {
-        var sec = document.getElementById("sec");
-        var nav = document.getElementById("navigation");
-        sec.classList.toggle("active");
-        nav.classList.toggle("active");
-      }
-
-      function refreshPage() {
-        window.location.reload();
-      }
-    </script>
+    <div class="test">
+      fasdfasfdas
+    </div>
   </body>
+  <script src="script.js"></script>
 </html>
