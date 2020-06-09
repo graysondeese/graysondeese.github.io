@@ -2,92 +2,69 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Linking fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <!-- <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    /> -->
-    <!-- Linking my CSS -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Linking Font Awesome-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
-    <!-- Shortcut icon -->
     <link
-      rel="shortcut icon"
-      type="img/png"
-      href="./PortfolioPics/Logo.png"
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
     />
-
-    <title>Grayson Deese | Front End Engineer</title>
-    <!--This is a test-->
   </head>
-
   <body>
-    <div class="header">
-      <a href="https://graysondeese.github.io/"
-        ><div class="logo-box">
-          <img src="PortfolioPics/Logo.png" alt="Logo" class="logo" /></div
-      ></a>
-      <div class="text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary-main">GRAYSON DEESE</span>
-          <span class="heading-primary-sub">FRONT END ENGINEER</span>
-        </h1>
-        <a href="#" class="btn btn-white btn-animated">SEE PROJECTS</a>
+    <section class="banner" id="sec">
+      <header>
+        <a href="#" class="logo">logo</a>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="content">
+        <h2>Hello World, <br />I'm <span>Grayson Deese</span></h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi unde
+          harum, reiciendis deleniti aperiam totam ducimus illo sequi. Aliquid
+          recusandae laborum incidunt repudiandae maiores sunt quibusdam odio
+          veritatis eum iusto.
+        </p>
+        <a href="#">Learn More</a>
       </div>
+      <ul class="sci fa-3x">
+        <li>
+          <a href="https://www.linkedin.com/in/grayson-deese/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/graysondeese" target="_blank"
+            ><i class="fab fa-github-square"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/grayson.deese" target="_blank"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <div id="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
-    <!-- About Section -->
-    <div class="section-about">
-      <div class="aboutHeading">
-        About
-      </div>
-      <hr>
-      <div class="aboutMe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro hic, inventore minus molestias asperiores quas. Voluptas non tenetur modi ad minima distinctio quo iusto repudiandae nulla odit, autem debitis aspernatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quaerat sequi velit eum? Illum et hic, impedit corporis ut, atque distinctio mollitia quis optio architecto fugit animi esse ducimus nostrum.</div>
-    </div>
-    <!-- Footer -->
-    <footer>
-      <div class="footerContainer">
-        
-          <div class="githubIcon fa-2x">
-            <a href="https://github.com/graysondeese" target="_blank">
-              <i class="fab fa-github-square"></i
-            ></a>
-              </div>
-
-          <div class="linkedinIcon fa-2x">
-            <a
-              href="https://www.linkedin.com/in/grayson-deese-382604152/"
-              target="_blank"
-            >
-              <i class="fab fa-linkedin"></i
-            ></a>
-          </div>
-        
-          <div class="facebookIcon fa-2x">
-            <a
-              href="https://www.facebook.com/grayson.deese"
-              target="_blank"
-            >
-              <i class="fab fa-facebook-square"></i
-            ></a>
-          </div>
-      </div>
-    </footer>
+    <script>
+      function toggle() {
+        var sec = document.getElementById("sec");
+        var nav = document.getElementById("navigation");
+        sec.classList.toggle("active");
+        nav.classList.toggle("active");
+      }
+    </script>
   </body>
 </html>
