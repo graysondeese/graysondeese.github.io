@@ -176,7 +176,13 @@ hr {
 .wirp {
     color: orange;
 }
-
+.wrapper {
+    background-color: red;
+    padding: 20px;
+}
+.contactBox {
+    margin: 20px;
+}
 /* media query */
 @media (max-width: 850px) {
     /* fix positioning/sizing of hb menu in mobile */
