@@ -9,7 +9,7 @@ body {
     background-color: #000000;
 }
 hr {
-    background-color: #fff;
+    background-color: #000000;
 }
 .logo a {
     position: fixed;
@@ -126,11 +126,11 @@ hr {
     height: 50vh;
     width: 85%;
     border-style:solid ;
-    border-color: #000;
+    border-color: #66ff66;
     border-radius: 25px;
 }
 .container {
-    background-color: #66ff66;
+    background-color: #fff;
     color: #000;
 }
 .container h1 {
@@ -142,7 +142,7 @@ hr {
     color: #000;
 }
 .container a:hover {
-    color: #fff;
+    color: #66ff66;
 }
 /* .portfolio {
     height: 100vh;
