@@ -13,7 +13,7 @@ hr {
 }
 .logo a {
     position: fixed;
-    top: 7px;
+    top: 9px;
     left: 100px;
     background: rgba(0,0,0,0);
     font-weight: 700;
@@ -46,6 +46,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transition: 0.6s;
 }
 .navbar {
     background-color: #66ff66;
@@ -228,8 +229,10 @@ hr {
         top: 1vh;
         right: 1vw;
     }
-    .logo a {
+    .logo {
         top: 1vh;
+    }
+    .logo a {
         left: 1vw;
     }
     .navbar {
