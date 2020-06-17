@@ -10,6 +10,7 @@ body {
 }
 hr {
     background-color: #000000;
+    border-width: 20px;
 }
 .logo {
     position: fixed;
