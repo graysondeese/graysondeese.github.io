@@ -17,7 +17,10 @@ menuIcon.addEventListener('click', () => {
 // add logic to stop the function if mw < 850
 var prevScrollPos = window.pageYOffset;
 window.onscroll = function() {
-  $(".navbar").removeClass('change')
+  $(".navbar").removeClass('change');
+  $(".line-1").removeClass('rotate1');
+  $(".line-2").removeClass('rotate2');
+  $(".line-3").removeClass('rotate3');
 var currentScrollPos = window.pageYOffset;
 // if we are scrolling down
   if (prevScrollPos > currentScrollPos) {

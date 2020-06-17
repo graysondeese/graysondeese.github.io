@@ -101,8 +101,6 @@ hr {
 .maintainer {
     position: relative;
     width: 100%;
-    /* padding: 900px;
-    margin-left: 900px; */
     min-height: 100vh;
     background-color: black;
     background-size: cover;
@@ -111,7 +109,7 @@ hr {
     transition: 0.5s;
 }
 .content {
-    padding: 300px;
+    padding: 20%;
 }
 .content h2 {
     color: #fff;
@@ -189,8 +187,8 @@ hr {
         right: 1vw; 
     }
     .logo {
-        top: 1vh !important;
-        left: 1vw !important;
+        top: 1vh;
+        left: 1vw;
     }
     .navbar {
         padding: 20px 50px;
@@ -198,9 +196,6 @@ hr {
     }
     .navLink {
         font-size: 1.5em;
-    }
-    .maintainer {
-        padding: 100px 50px 150px;
     }
     .maintainer h2 {
         font-size: 1.8em;
