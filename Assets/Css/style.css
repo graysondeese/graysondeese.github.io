@@ -69,18 +69,18 @@ hr {
     transition: all 0.2s;
     z-index: 4;
 }
-.line:hover {
-    height: 5px;
-    background-color: #66ff66;
-}
-.change .line-1 {
+.rotate1 {
     transform: rotateZ(-405deg) translate(-8px, 6px);
 }
-.change .line-2 {
+.rotate2 {
     opacity: 0;
 }
-.change .line-3 {
+.rotate3 {
     transform: rotateZ(405deg) translate(-8px, -6px);
+}
+
+.rotate1, .rotate2, .rotate3:hover {
+    background-color: white;
 }
 .navList {
     text-align: right;
