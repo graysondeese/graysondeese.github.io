@@ -222,7 +222,7 @@ hr {
 } */
 
 /* media query */
-@media (max-width: 767px) {
+@media (max-width: 850px) {
     /* fix positioning/sizing of hb menu in mobile */
     .hamburgerMenu {
         top: 1vh;
@@ -248,6 +248,8 @@ hr {
     .banner .content p, .banner .content a {
         font-size: 1em;
     }
-
-
+/* === Portfolio === */
+.portfolioPics {
+    height: 25vh;
+}
 }
