@@ -79,9 +79,6 @@ hr {
     transform: rotateZ(405deg) translate(-8px, -6px);
 }
 
-.rotate1, .rotate2, .rotate3:hover {
-    background-color: white;
-}
 .navList {
     text-align: right;
 }

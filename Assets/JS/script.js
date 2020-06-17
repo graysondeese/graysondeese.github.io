@@ -33,18 +33,18 @@ var currentScrollPos = window.pageYOffset;
   prevScrollPos = currentScrollPos;
 }
 
-// making all lines change color when the user hovers over one line
-menuIcon.addEventListener("mouseover", function( event ) {
-  line1.style.backgroundColor = '#66ff66';
-  line2.style.backgroundColor = '#66ff66';
-  line3.style.backgroundColor = '#66ff66';
+// making all lines change color to red when the user clicks on one line
+menuIcon.addEventListener("click", function( event ) {
+  line1.style.backgroundColor = 'red';
+  line2.style.backgroundColor = 'red';
+  line3.style.backgroundColor = 'red';
 
 // reset the color after a short delay
 setTimeout(function() {
   line1.style.backgroundColor = '#fff';
   line2.style.backgroundColor = '#fff';
   line3.style.backgroundColor = '#fff';
-}, 500);
+}, 100);
 
 })
 
