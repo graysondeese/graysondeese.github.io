@@ -5,9 +5,11 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
 }
+body {
+    background-color: #000000;
+}
 hr {
-    width: 8%;
-    /* fix the width of this? */
+    background-color: #fff;
 }
 .logo a {
     position: fixed;
@@ -120,8 +122,29 @@ hr {
     font-weight: 500;
 }
 /* ===== portfolio ===== */
-
-.portfolio {
+.portfolioPics{
+    height: 50vh;
+    width: 85%;
+    border-style:solid ;
+    border-color: #000;
+    border-radius: 25px;
+}
+.container {
+    background-color: #66ff66;
+    color: #000;
+}
+.container h1 {
+    color: #000;
+    font-weight: 900;
+    font-size: 3rem;
+}
+.container a {
+    color: #000;
+}
+.container a:hover {
+    color: #fff;
+}
+/* .portfolio {
     height: 100vh;
     background-color: #000;
     display: flex;
@@ -191,6 +214,12 @@ hr {
 .card:hover > .back {
     transform: perspective(600px) rotateY(0deg);
 }
+.card:active > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+.card:active > .back {
+    transform: perspective(600px) rotateY(0deg);
+} */
 
 /* media query */
 @media (max-width: 767px) {
