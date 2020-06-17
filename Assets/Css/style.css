@@ -71,6 +71,7 @@ hr {
 }
 .line:hover {
     height: 5px;
+    background-color: #66ff66;
 }
 .change .line-1 {
     transform: rotateZ(-405deg) translate(-8px, 6px);
@@ -177,11 +178,11 @@ hr {
     color: orange;
 }
 .wrapper {
-    background-color: red;
-    padding: 20px;
+    padding: 200px;
 }
 .contactBox {
     margin: 20px;
+    border-radius: 25px;
 }
 /* media query */
 @media (max-width: 850px) {
