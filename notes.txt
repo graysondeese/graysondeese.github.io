@@ -1,4 +1,4 @@
 # take updated screenshots of all applications
 # add spacing between each project in portfolio
 # work on contact page
-# work on mobile bugs
+# work on mobile bugs (header disappearing)

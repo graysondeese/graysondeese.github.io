@@ -25,6 +25,7 @@ hr {
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: 0.6s;
+    height: 35px;
 }
 .logo:hover{
     color: #66ff66;
@@ -188,8 +189,8 @@ hr {
 @media (max-width: 850px) {
     /* fix positioning/sizing of hb menu in mobile */
     .hamburgerMenu {
-        top: 1vh;
-        right: 1vw; 
+        top: 2vh;
+        right: 2vw; 
     }
     .logo {
         top: 1vh;
