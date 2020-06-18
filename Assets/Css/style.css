@@ -58,7 +58,6 @@ hr {
     transition: right .2s cubic-bezier(1, 0, 0, 1);
     z-index: 3;
 }
-/* move the navbar from -300px to 0 */
 .change {
     right: 0;
 }
@@ -148,6 +147,7 @@ hr {
 .container {
     background-color: #fff;
     color: #000;
+    width: 2000px;
 }
 .container h1 {
     color: #000;
@@ -169,27 +169,31 @@ hr {
 .container a:hover {
     color: #66ff66;
 }
-/* contact page */
-.wirp {
-    color: orange;
+/* ===== contact page ==== */
+.padder {
+    border: 20px;
+    border-color: black;
+    width: 100vw;
+    height: 10vh;
 }
 .wrapper {
-    padding: 200px;
+    padding: 30px;
+    margin: 30px;
 }
-.contactBox {
-    margin: 20px;
-    border-radius: 25px;
+.wirp{
+    color: orange;
+    text-decoration: underline;
 }
-/* media query */
+/* ===== media query ===== */
 @media (max-width: 850px) {
     /* fix positioning/sizing of hb menu in mobile */
     .hamburgerMenu {
-        top: 1vhw;
+        top: 1vh;
         right: 1vw; 
     }
     .logo {
         top: 1vh;
-        left: 1vw;
+        left: 2vw;
     }
     .navbar {
         padding: 20px 50px;
