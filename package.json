@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/graysondeese/graysondeese.github.io/issues"
   },
-  "homepage": "https://github.com/graysondeese/graysondeese.github.io#readme"
+  "homepage": "https://github.com/graysondeese/graysondeese.github.io#readme",
+  "dependencies": {
+    "bulma": "^0.9.0"
+  }
 }
