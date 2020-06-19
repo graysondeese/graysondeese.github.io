@@ -6,17 +6,17 @@ let line1 = document.querySelector(".line-1");
 let line2 = document.querySelector(".line-2");
 let line3 = document.querySelector(".line-3");
 
-// Logic for hamburger menu
+// rotate lines in hb menu on click
 menuIcon.addEventListener('click', () => {
     navbar.classList.toggle('change');
     line1.classList.toggle('rotate1');
     line2.classList.toggle('rotate2');
     line3.classList.toggle('rotate3');
 })
-// function to make navbar and logo disappear on scroll down and appear on scroll up
 // add logic to stop the function if mw < 850
 var prevScrollPos = window.pageYOffset;
 window.onscroll = function() {
+  
   $(".navbar").removeClass('change');
   $(".line-1").removeClass('rotate1');
   $(".line-2").removeClass('rotate2');
@@ -36,7 +36,7 @@ var currentScrollPos = window.pageYOffset;
   prevScrollPos = currentScrollPos;
 }
 
-// making all lines change color to red when the user clicks on one line
+// making all lines change color to red when the user clicks
 menuIcon.addEventListener("click", function( event ) {
   line1.style.backgroundColor = 'red';
   line2.style.backgroundColor = 'red';

@@ -31,24 +31,27 @@
       crossorigin="anonymous"
     />
     <!-- Shortcut icon -->
-    <link rel="shortcut icon" type="img/png" href="./Assets/Images/G.jpg" />
+    <link rel="shortcut icon" type="img/png" href="./Assets/Images/GD.PNG" />
   </head>
 
   <!-- Body -->
   <body>
     <!-- header -->
-    <a href="https://graysondeese.github.io/" class="logo">GD</a>
+    <div class="header">
+      <a href="index.html" class="logo">GD</a>
         <div class="hamburgerMenu">
           <div class="line line-1"></div>
           <div class="line line-2"></div>
           <div class="line line-3"></div>
         </div>
+      </div>
+    
         
         <!-- banner -->
         <nav class="navbar">
           <ul class="navList">
             <li class="navItem">
-              <a href="https://graysondeese.github.io/" class="navLink">Home</a>
+              <a href="index.html" class="navLink">Home</a>
             </li>
             <li class="navItem"><a href="contact.html" class="navLink">Contact</a></li>
             <li class="navItem"><a href="Assets/DeeseResume.pdf" target="_blank" class="navLink">Resume</a></li>
@@ -71,20 +74,25 @@
           </ul>
         </nav>
 
-        <!-- maintainer -->
+        <!-- ==== Landing Page ====-->
     <div class="maintainer">
       <div class="content">
-        <h2>Grayson Deese <br /><span>Software Engineer</span></h2>
-        <p>
+        <h1>Grayson Deese </h1>
+        <span class="se">Software Engineer</span>
+        <p class="ptag">
           Front-end engineer leveraging STEM background to improve user
           experience on all aspects of the web. Currently enrolled in a coding
           bootcamp through the University of North Carolina at Charlotte where I
-          will receive a certificate in full stack web development. During this
-          bootcamp, I’ve built on my skills in HTML and CSS as well as acquired
+          will receive a certificate in full stack web development.</p>
+          <p class="ptag">
+          During this bootcamp, I’ve built on my skills in HTML and CSS as well as acquired
           new skills in JavaScript, React.js, jQuery and responsive web design.
           Self-motivated, driven and organized individual who works well under
           pressure and enjoys finding solutions to problems. Known for
-          integrating aspects of UX and UI into a clean, user-friendly page.
+          integrating aspects of UX and UI into a clean, user-friendly page. </p>
+          <!--blank image tags styled with media query to break up text into paragraphs on mobile  -->
+          <div class="mobileBr"></div> 
+          <p class="ptag">
           Recently, I worked in a team of four to build an application, from
           scratch, that lets users find things to do in the Charlotte area using
           a Google Maps API. Excited to use skills alongside a driven team to
@@ -93,16 +101,18 @@
         <a href="#">See Projects</a>
       </div>
     </div>
-    <!-- Portfolio -->
+
+    <!-- 🔥Portfolio🔥 -->
+        <h1 class="text-center pHead">Portfolio</h1>
+      
     <div class="container w-75 bg-white mb-5">
-      <!-- Row 1 -->
+      <!-- Placeholder row -->
       <div class="row">
-        <div class="col-md-12">
-          <h1 class="text-center">Portfolio</h1>
+        <div class="col-md-12">  
         </div>
       </div>
       <hr />
-      <!-- Row 2 -->
+      <!-- INTown -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2>InTown</h2>
@@ -120,14 +130,14 @@
           <hr />
         </div>
       </div>
-      <!-- Row 3 -->
+      <!-- Day Planner -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2 clas>Day Planner</h2>
           <p>
             <a href="https://graysondeese.github.io/DayPlanner/" target="_blank"
               >Deployed Application</a
-            >
+            > 
           </p>
           <p>
             <a href="https://github.com/graysondeese/DayPlanner" target="_blank"
@@ -138,7 +148,7 @@
           <hr />
         </div>
       </div>
-      <!-- Row 4 -->
+      <!-- Weather Dashboard -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2>Weather Dashboard</h2>
@@ -152,7 +162,7 @@
               >GitHub Repository</a
             >
           </p>
-          <img class="portfolioPics" src="Assets/Images/WeatherDashboard-pic.PNG" />
+          <img class="portfolioPics" src="Assets/Images/wdPic.PNG" />
           <hr />
         </div>
       </div>
@@ -160,3 +170,4 @@
   </body>
   <script src="Assets/JS/script.js"></script>
 </html>
+
