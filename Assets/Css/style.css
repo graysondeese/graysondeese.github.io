@@ -75,7 +75,8 @@ body {
     transform: rotateZ(405deg) translate(-8px, -6px);
 }
 .sidebar {
-    background-color: #66ff66;
+    /* background-color: #66ff66; */
+    background-color: #000;
     width: 300px;
     height: 100%;
     position: fixed;
@@ -112,32 +113,26 @@ body {
 .maintainer {
     width: 100%;
     background-color: #52ADC8;
-    background-size: cover;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-.content {
-    width: 100%;
-    background: #52ADC8;
-    padding: 10%;
-}
-.content h1 {
+
+.maintainer h1 {
     color: #fff;
     font-size: 5.5em;
+    letter-spacing: .4em;
     text-align: center;
 }
-.se  {
+.maintainer h2  {
     color: #000;
     font-size: 3em;
+    text-align: center;
 }
-.ptag {
-    font-size: 1.2em;
-    color: #ffffff;
-    font-weight: 300;
-    line-height: 1.5;
-}
-.content a {
+.maintainer a {
     position: relative;
     display: inline-block;
     margin-top: 20px;
@@ -147,7 +142,34 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
+    border-radius: 25px;
 }
+.maintainer a:hover{
+    transform: translateY(-3px);
+}
+.maintainer a:active{
+    transform: translateY(-1px);
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: #4595B6;
+    padding: 5% 10%;
+    min-height: 100vh;
+}
+.content h1 {
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+.ptag {
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
 /* ===== portfolio ===== */
 #pHead {
     color: #ffffff;
@@ -163,7 +185,6 @@ body {
 .container {
     background-color: #fff;
     color: #000;
-    width: 2000px;#55C39E
 }
 .container h1 {
     color: #000;
@@ -184,8 +205,9 @@ body {
 /* ===== 🔋🔋 contact page 🔋🔋 ==== */
 #contact{
     width: 100%;
-    background-color: #55C39E;
+    background-color: #387CA3;
     display: block;
+    padding: 1% 0;
 }
 .innerContact {
     height: 100%;
@@ -197,6 +219,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.fab{
+    color: white;
+}
+.fab:hover{
+    color: #000;
 }
 /* ===== ❗🔥🔥🔥 media query 🔥🔥🔥❗ ===== */
 @media (max-width: 850px) {
@@ -218,13 +246,12 @@ body {
     }
     .maintainer h1 {
         font-size: 3em;
-        padding-top: 20%;
     }
     .se{
         font-size: 2em;
     }
-    .ptag p {
-        font-size: 1em;
+    .ptag {
+        font-size: 1.2em;
     }
 /* === Portfolio === */
 .portfolioPics {
@@ -233,6 +260,9 @@ body {
 
 /* === Contact === */
 .innerContact h2 {
-    font-size: 1em;
+    font-size: 1.2em;
+}
+.innerContact h4 {
+    font-size: .8em;
 }
 }
