@@ -1,6 +1,14 @@
-/* .portfolio {
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: red;
+}
+.portfolio {
     height: 100vh;
-    background-color: #000;
+    background-color: #ff0;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -13,6 +21,7 @@
    cursor: pointer;
    width: 40vw;
    height: 480px; 
+   flex-direction: column;
 }
 .front, .back {
     width: 100%;
@@ -20,7 +29,6 @@
     overflow: hidden;
     backface-visibility: hidden;
     position: absolute;
-    transition: transform .6s linear;
 }
 .front img{
     height: 100%;
@@ -44,24 +52,7 @@
     text-align: center;
     width: 100%;
 }
-.sm {
-    margin: 20px 0;
-}
-.sm a {
-    display: inline-flex;
-    width: 40px;
-    height: 40px;
-    justify-content: center;
-    align-items: center;
-    color: #66ff66;
-    font-size: 18px;
-    transition: 0.4s;
-    border-radius: 50%;
-}
-.sm a:hover {
-    color: #000000;
-    background-color: #66ff66;
-}
+
 .card:hover > .front {
     transform: perspective(600px) rotateY(-180deg);
 }
@@ -73,4 +64,10 @@
 }
 .card:active > .back {
     transform: perspective(600px) rotateY(0deg);
-} */
+}
+.card1 {
+    flex-direction: column;
+}
+.card2 {
+    flex-direction: column;
+}

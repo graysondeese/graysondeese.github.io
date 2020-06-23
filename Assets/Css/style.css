@@ -106,8 +106,8 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-.navLink:hover { /* Look @ yt video to see how to add the lines */
-    color: #d3d3d3;
+.navLink:hover {
+    color: #66ff66;
 }
 /*🔥Main content 🔥  */
 .maintainer {
@@ -172,35 +172,30 @@ body {
 
 /* ===== portfolio ===== */
 #pHead {
+    letter-spacing: .1em;
+    font-weight: 600;
+    padding-top: 5%;
     color: #ffffff;
 }
 .portfolioPics{
-    height: 50vh;
-    width: 85%;
+    height: 75vh;
+    width: 75%;
     border-style:solid ;
     border-width: 7px;
     border-color: #55C39E;
     border-radius: 25px;
 }
-.container {
-    background-color: #fff;
-    color: #000;
-}
-.container h1 {
-    color: #000;
-    font-weight: 900;
-    font-size: 3rem;
-}
-.container h2 {
-    color: #55C39E;
+
+.container-fluid h2 {
+    color: #66ff66;
     font-weight: 600;
     font-size: 2rem;
 }
-.container a {
+.container-fluid a {
     color: #000;
 }
-.container a:hover {
-    color: #55C39E;
+.container-fluid a:hover {
+    color: #fff;
 }
 /* ===== 🔋🔋 contact page 🔋🔋 ==== */
 #contact{
@@ -246,9 +241,6 @@ body {
     }
     .maintainer h1 {
         font-size: 3em;
-    }
-    .se{
-        font-size: 2em;
     }
     .ptag {
         font-size: 1.2em;
