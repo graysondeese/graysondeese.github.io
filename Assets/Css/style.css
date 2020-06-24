@@ -156,27 +156,27 @@ body {
     width: 100%;
     background-color: #4595B6;
     padding: 5% 10%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
-.content h1 {
+.headings {
     font-weight: 600;
     font-size: 3em;
     text-align: center;
+    letter-spacing: .1em;
+    color: #000;
 }
 .ptag {
-    font-size: 2em;
+    font-size: 1.7em;
     color: #ffffff;
     font-weight: 300;
     line-height: 1.5;
 }
 
 /* ===== portfolio ===== */
-#pHead {
-    letter-spacing: .1em;
-    font-weight: 600;
+#portfolio {
     padding-top: 5%;
-    color: #ffffff;
 }
+
 .portfolioPics{
     height: 75vh;
     width: 75%;
@@ -187,7 +187,7 @@ body {
 }
 
 .container-fluid h2 {
-    color: #66ff66;
+    color: #fff;
     font-weight: 600;
     font-size: 2rem;
 }
