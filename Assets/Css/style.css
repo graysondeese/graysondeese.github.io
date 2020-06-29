@@ -215,6 +215,22 @@ body {
     align-items: center;
     flex-direction: column;
 }
+.innerContact form {
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.submit-btn {
+    color: white;
+    background: #000;
+    border-radius: 5px;
+    padding: 5px;
+    border: black;
+}
 .fab{
     color: white;
 }
