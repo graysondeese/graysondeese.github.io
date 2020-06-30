@@ -93,29 +93,31 @@
       <a href="#portfolio">See Projects</a>
     </div>
 
+    <!-- Content -->
+    <div class="contentContainer">
     <div class="content">
       <h1 class="headings" id="about">About</h1>
-      <p class="ptag">
+      <p>
         Front-end engineer leveraging STEM background to improve user experience
         on all aspects of the web. Currently enrolled in a coding bootcamp
         through the University of North Carolina at Charlotte where I will
         receive a certificate in full stack web development.
       </p>
-      <p class="ptag">
+      <p>
         During this bootcamp, I’ve built on my skills in HTML and CSS as well as
         acquired new skills in JavaScript, React.js, jQuery and responsive web
         design. Self-motivated, driven and organized individual who works well
         under pressure and enjoys finding solutions to problems. Known for
         integrating aspects of UX and UI into a clean, user-friendly page.
       </p>
-      <p class="ptag">
+      <p>
         Recently, I worked in a team of four to build an application, from
         scratch, that lets users find things to do in the Charlotte area using a
         Google Maps API. Excited to use skills alongside a driven team to build
         superior experiences on the web.
       </p>
     </div>
-
+  </div>
     <!-- 🔥Portfolio🔥 -->
     <h1 class="headings" id="portfolio">Portfolio</h1>
 
@@ -125,7 +127,7 @@
         <div class="col-md-12"></div>
       </div>
       <hr />
-      <!-- Row 2 -->
+      <!-- Quiz Stack -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2>Quiz Stack</h2>
@@ -139,14 +141,32 @@
               >GitHub Repository</a
             >
           </p>
-          <img class="portfolioPics" src="Assets/Images/qs-pic.PNG" />
+          <img class="portfolioPics" src="Assets/Images/qs-pic.PNG" alt="Quiz Stack"/>
           <hr />
         </div>
       </div>
-      <!-- Row 2 -->
+      <!-- Workout Tracker -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
-          <h2>InTown</h2>
+          <h2>Workout Tracker</h2>
+          <p>
+            <a href="https://limitless-springs-47529.herokuapp.com/" target="_blank"
+              >Deployed Application</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/graysondeese/WorkoutTracker" target="_blank"
+              >GitHub Repository</a
+            >
+          </p>
+          <img class="portfolioPics" src="Assets/Images/wt-pic.PNG" alt="Workout Tracker" />
+          <hr />
+        </div>
+      </div>
+      <!-- InTown -->
+      <div class="row">
+        <div class="col-md-12 text-center mb-4">
+          <h2>INTown</h2>
           <p>
             <a href="https://graysondeese.github.io/INTown/" target="_blank"
               >Deployed Application</a
@@ -157,11 +177,11 @@
               >GitHub Repository</a
             >
           </p>
-          <img class="portfolioPics" src="Assets/Images/INTown-pic.PNG" />
+          <img class="portfolioPics" src="Assets/Images/INTown-pic.PNG" alt="INTown" />
           <hr />
         </div>
       </div>
-      <!-- Row 3 -->
+      <!-- Day Planner -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2>Day Planner</h2>
@@ -175,11 +195,11 @@
               >GitHub Repository</a
             >
           </p>
-          <img class="portfolioPics" src="Assets/Images/DayPlanner-pic.PNG" />
+          <img class="portfolioPics" src="Assets/Images/DayPlanner-pic.PNG" alt="Day Planner"/>
           <hr />
         </div>
       </div>
-      <!-- Row 4 -->
+      <!-- Weather Dashboard -->
       <div class="row">
         <div class="col-md-12 text-center mb-4">
           <h2>Weather Dashboard</h2>
@@ -197,7 +217,7 @@
               >GitHub Repository</a
             >
           </p>
-          <img class="portfolioPics" src="Assets/Images/wdPic.PNG" />
+          <img class="portfolioPics" src="Assets/Images/wdPic.PNG" alt="Weather Dashboard"/>
           <hr />
         </div>
       </div>
@@ -207,39 +227,36 @@
 
     <div id="contact">
       <div class="innerContact">
-        <h1>Contact Me!</h1>
+        <h1 class="headings">Contact</h1>
         <form action="https://formspree.io/mzbjaylo" method="POST">
           <label>
-            Name: <br />
-            <input type="text" name="name" />
+            <!-- Name: <br /> -->
+            <input type="text" name="name" placeholder="Name"/>
           </label>
-          <br />
           <label>
-            Email: <br />
-            <input type="text" name="_replyto" />
+            <!-- Email: <br /> -->
+            <input type="text" name="_replyto" placeholder="Email"/>
           </label>
-          <br />
 
           <label>
-            Message: <br />
-            <textarea type="text" name="message"></textarea>
+            <!-- Message: <br /> -->
+            <textarea type="text" name="message" placeholder="Your Message"></textarea>
           </label>
           <button type="submit" class="submit-btn">Send Message</button>
         </form>
-        <br />
-        <h3>Email: graysondeese@gmail.com</h3>
-        <h3>Phone: (980)-621-3400</h3>
-        <h4>© Grayson Deese 2020</h4>
-        <div class="footerIcons">
-          <a href="https://github.com/graysondeese" target="_blank"
-            ><i class="fab fa-github-square fa-2x"></i
-          ></a>
-          <a href="https://www.linkedin.com/in/grayson-deese/" target="_blank"
-            ><i class="fab fa-linkedin fa-2x"></i
-          ></a>
-        </div>
       </div>
     </div>
+    <div class="footer">
+      <h4>© Grayson Deese 2020</h4>
+      <div class="footerIcons">
+        <a href="https://github.com/graysondeese" target="_blank"
+          ><i class="fab fa-github-square fa-2x"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/grayson-deese/" target="_blank"
+          ><i class="fab fa-linkedin fa-2x"></i
+        ></a>
+      </div>
+      </div>
   </body>
   <script src="Assets/JS/script.js"></script>
 </html>

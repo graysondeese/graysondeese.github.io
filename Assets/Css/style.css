@@ -150,13 +150,18 @@ body {
 .maintainer a:active{
     transform: translateY(-1px);
 }
-
-.content {
-    height: 100%;
+/* About */
+.contentContainer {
     width: 100%;
     background-color: #4595B6;
-    padding: 5% 10%;
-    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    height: 100%;
+    width: 75%;
+    padding: 4% 0;
 }
 .headings {
     font-weight: 600;
@@ -165,7 +170,7 @@ body {
     letter-spacing: .1em;
     color: #000;
 }
-.ptag {
+.content p {
     font-size: 1.7em;
     color: #ffffff;
     font-weight: 300;
@@ -200,7 +205,7 @@ body {
 /* ===== 🔋🔋 contact page 🔋🔋 ==== */
 #contact{
     width: 100%;
-    background-color: #387CA3;
+    background-color: #4595B6;
     display: block;
     padding: 1% 0;
 }
@@ -214,17 +219,34 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: ;
 }
 .innerContact form {
     text-align: center;
-    padding: 5px;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
-
+.innerContact form ::placeholder {
+    color: black;
+}
+.innerContact input {
+    margin: 0 0 0 3px;
+    padding: 10px 15px;
+    background: #d0d0d0;
+    width: 400px;
+    border: black;
+}
+.innerContact textarea {
+    margin: 0 0 0 3px;
+    padding: 10px 15px;
+    background: #d0d0d0;
+    width: 400px;
+    border: black;
+}
 .submit-btn {
     color: white;
     background: #000;
@@ -232,12 +254,24 @@ body {
     padding: 5px;
     border: black;
 }
+/* === footer === */
+.footer {
+    background: #387CA3;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
 .fab{
     color: white;
 }
 .fab:hover{
     color: #000;
 }
+
 /* ===== ❗🔥🔥🔥 media query 🔥🔥🔥❗ ===== */
 @media (max-width: 850px) {
     /* fix positioning/sizing of hb menu in mobile */
@@ -268,10 +302,15 @@ body {
 }
 
 /* === Contact === */
-.innerContact h3 {
-    font-size: 1.2em;
+
+.innerContact input {
+    width: 100%;
 }
-.innerContact h4 {
+.innerContact textarea {
+    width: 100%;
+}
+/* === footer === */
+.footer h4 {
     font-size: .8em;
 }
 }
