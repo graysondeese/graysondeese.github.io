@@ -224,6 +224,7 @@ body {
     flex-direction: column;
     width: 100%;
 }
+
 .submit-btn {
     color: white;
     background: #000;
@@ -267,7 +268,7 @@ body {
 }
 
 /* === Contact === */
-.innerContact h2 {
+.innerContact h3 {
     font-size: 1.2em;
 }
 .innerContact h4 {
