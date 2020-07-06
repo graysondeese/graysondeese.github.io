@@ -14,7 +14,7 @@ menuIcon.addEventListener('click', () => {
     line3.classList.toggle('rotate3');
 })
 window.onscroll = function() {
-  // ide bar disappear on scroll and the lines of hamburger menu reset
+  // side bar disappear on scroll and the lines of hamburger menu reset
   $(".sidebar").removeClass('change');
   $(".line-1").removeClass('rotate1');
   $(".line-2").removeClass('rotate2');
