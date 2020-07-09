@@ -295,6 +295,9 @@ body {
 .footer h4 a {
   color: #fff;
 }
+.footer h4 a:hover {
+  color: #000;
+}
 .fab {
   color: white;
 }
