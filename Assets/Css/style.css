@@ -9,10 +9,10 @@
   margin: 0 auto;
   margin-bottom: 15px;
   width: 15%;
-  border: 1px solid #000;
+  border: 1px solid #52adc8;
 }
 body {
-  background-color: #52adc8;
+  background-color: #d8e7ee;
 }
 .header {
   width: 100%;
@@ -154,10 +154,11 @@ body {
 /* About */
 .contentContainer {
   width: 100%;
-  background-color: #4595b6;
+  background-color: #d8e7ee;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 .content {
   height: 100%;
@@ -173,7 +174,7 @@ body {
 }
 .content p {
   font-size: 1.7em;
-  color: #ffffff;
+  color: #000;
   font-weight: 300;
   line-height: 1.5;
 }
@@ -211,20 +212,27 @@ body {
 }
 
 .container-fluid h2 {
-  color: #fff;
+  color: #000;
   font-weight: 600;
   font-size: 2rem;
 }
 .container-fluid a {
-  color: #fff;
+  color: #000;
+  opacity: .8;
+  font-weight: 100;
 }
 .container-fluid a:hover {
-  color: #000;
+  opacity: 1;
+  font-weight: 900;
 }
+.container-fluid p {
+  font-weight: 700;
+}
+
 /* ===== 🔋🔋 contact page 🔋🔋 ==== */
 #contact {
   width: 100%;
-  background-color: #4595b6;
+  background-color: #d8e7ee;
   display: block;
   padding: 1% 0;
 }
@@ -233,7 +241,7 @@ body {
   width: 80%;
   display: block;
   margin: 0 auto;
-  color: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -317,6 +325,10 @@ body {
   }
   .skillHolder {
     display: none;
+  }
+  /* About */
+  .content p {
+    font-size: 20px;
   }
   /* === Portfolio === */
   
